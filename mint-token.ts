@@ -17,7 +17,7 @@ const tokenMintAccount = new PublicKey("DST6Cp7J4MKHBh41j58b9xFLf9uZetkCVsEe5spf
 
 // Substitute in your own, or a friend's token account address, based on the previous step.
 const recipientAssociatedTokenAccount = new PublicKey(
-    "5oNZgsZFjaHsjVqTf1XHFxdwAgKsPfm9fmBuweX8SK7e",
+    "5oNZgsZFjaHsjVqTf1XHFxdwAgKsPfm9DmBuweX8SK7e",
 );
 
 const transactionSignature = await mintTo(
